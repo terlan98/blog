@@ -1,0 +1,4 @@
+baseURL = 'https://appdelegate.io/'
+languageCode = 'en-us'
+title = 'AppDelegate'
+theme = 'PaperMod'
