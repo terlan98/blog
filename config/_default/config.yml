@@ -16,7 +16,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: AppDelegate
   description: "AppDelegate description"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [iOS, Mobile, Developer, Swift, UIKit, SwiftUI]
   author: Tarlan
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
