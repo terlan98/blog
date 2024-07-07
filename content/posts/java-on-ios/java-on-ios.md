@@ -134,7 +134,7 @@ If you’d like to specify the architectures that the framework should be built 
 ```
 
 ## Issues that I faced how I solved them
---{INSERT AN INTRO}--
+Getting MobiVM to work with my Java code wasn't straightforward as I encountered some challenges mentioned below.
 
 ### EXC_BAD_ACCESS
 
@@ -182,4 +182,9 @@ Even if you do your best to handle Java exceptions properly in your project, som
 
 ### Lack of resources
 
-While researching ways for running Java on iOS, I found out that this is a niche need among developers, which is why there are few alternatives to MobiVM available currently. Not being an expert in MobiVM, I consistently rely on the GitHub community for support whenever I’m stuck. MobiVM has an awesome [discussions page](https://github.com/MobiVM/robovm/discussions) where you can quickly get your questions answered. Besides that, support options are limited, with Stack Overflow and ChatGPT providing minimal help.
+While investigating ways to execute Java on iOS, I realized that this is a niche need among developers, which is why there are few alternatives to MobiVM available right now. Not being an expert in MobiVM, I consistently rely on the GitHub community for support whenever I’m stuck. MobiVM has an awesome [discussions page](https://github.com/MobiVM/robovm/discussions) where you can quickly get your questions answered. Besides that, support options are limited, with Stack Overflow and ChatGPT providing minimal help.
+
+## Conclusion
+Despite the challenges, MobiVM made it possible to incorporate an important feature that brought high business value to the iOS project I was working on. This post is my way of paying it forward, hoping it proves beneficial to you as well.
+
+Cheers! ✨
