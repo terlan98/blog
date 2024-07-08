@@ -13,7 +13,7 @@ TocOpen: false
 
 ## The Backstory
 
-Recently, I encountered a challenge while working on an iOS project that required a specific functionality which was too complicated to implement by myself. My search led me to a Java library that had the exact features I needed. However, there was one major roadblock: it was only available in Java. At first, I tried to find a native alternative that could be easily integrated into my iOS project via SPM, CocoaPods, or other dependency managers. Unfortunately, none of the available options matched the functionality of the Java library. As I explored methods for integrating Java into iOS, I found that many existing solutions were not up-to-date, lacked sufficient documentation, and had limited support, which made them less effective for my needs. Just when I was about to give up, I stumbled upon MobiVM (formerly known as RoboVM).
+Recently, I encountered a challenge while working on an iOS project that required a specific functionality which proved to be highly complex to implement. My search led me to a Java library that had the exact features I needed. However, there was one major roadblock: it was only available in Java. At first, I tried to find a native alternative that could be easily integrated into my iOS project via SPM, CocoaPods, or other dependency managers. Unfortunately, none of the available options matched the functionality of the Java library. As I explored methods for integrating Java into iOS, I found that many existing solutions were not up-to-date, lacked sufficient documentation, and had limited support, which made them less effective for my needs. Just when I was about to give up, I stumbled upon MobiVM (formerly known as RoboVM).
 
 ## What is MobiVM?
 
