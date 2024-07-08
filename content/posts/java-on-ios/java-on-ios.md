@@ -34,7 +34,7 @@ Before diving into coding your Java framework, you should complete the following
 
 Now that the environment is set up, let's start exploring MobiVM through a straightforward demo project. This project consists of a single Java class (DemoClass) with a small function that returns “Hello from Java!”.
 
-The first step is to create a new MobiVM project. The plugin makes this process pretty straightforward. You need to open the new project dialog in your IDE and select RoboVM → RoboVM iOS Framework. I’ve already done it for you and it can be accessed here --{ADD A LINK TO DEMO}. --
+The first step is to create a new MobiVM project. The plugin makes this process pretty straightforward. You need to open the new project dialog in your IDE and select RoboVM → RoboVM iOS Framework. I’ve already done it for you and it can be accessed [here](https://github.com/terlan98/mobivm-demo).
 
 - If you’d like to create the project on your own, check out [this](https://dkimitsa.github.io/2018/01/16/tutorial-writing-framework-improved/#creating-framework-step-by-step) guide. By default, the created project contains some code which I’ve removed to keep it as simple as possible.
 
@@ -82,10 +82,11 @@ mvn -Drobovm.enableBitcode=true compile robovm:install
 ```
 
 <br>
-This command will generate an xcframework file under target/robovm. In order to test the code, you should drag and drop this file into your iOS project.
+
+This command will generate an xcframework file under `target/robovm`. In order to test the code, you should drag and drop this file into your iOS project.
 <img src="../images/xcode-filetree.png" width=30%>
 
-Once added to the project, the framework can be imported and used as follows. You can also find a demo iOS app at --{ADD A LINK TO DEMO}--. 
+Once added to the project, the framework can be imported and used as follows. You can also find a demo iOS app [here](https://github.com/terlan98/mobivm-demo). 
 
 ```swift
 import SwiftUI
