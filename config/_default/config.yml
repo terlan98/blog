@@ -1,7 +1,7 @@
 baseURL: "https://appdelegate.io/"
 title: AppDelegate
 paginate: 5
-theme: PaperMod
+theme: PaperMod-theme
 
 enableRobotsTXT: true
 buildDrafts: false
