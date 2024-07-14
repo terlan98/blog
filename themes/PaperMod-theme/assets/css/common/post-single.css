@@ -229,7 +229,8 @@
     font-family: ui-monospace, Menlo, Consolas, monospace;
     font-size: 0.8em;
     font-weight: 400;
-    color: #DB2C38;
+    color: #00A0BE;
+    border: 1px solid var(--border);
     line-height: 1.8;
     background: var(--code-bg);
 }
@@ -293,8 +294,9 @@
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
     background: var(--code-bg);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     padding: 0.4em;
+    font-size: 0.85em;
 }
 
 .dark .toc {
