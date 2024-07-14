@@ -134,7 +134,7 @@ If you’d like to specify the architectures that the framework should be built 
 ...
 ```
 
-## Issues that I faced how I solved them
+## Issues
 Getting MobiVM to work with my Java code wasn't straightforward as I encountered some challenges mentioned below.
 
 ### EXC_BAD_ACCESS
