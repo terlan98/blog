@@ -19,7 +19,7 @@ Recently, I encountered a challenge while working on an iOS project that require
 
 MobiVM is a fork of the last open-source release of RoboVM, a project that was discontinued after being acquired by Microsoft. It is basically an AOT (ahead-of-time) compiler for Java bytecode, targeting iOS, macOS and Linux. This implies that no interpretation is ever done and the code is run natively on the target CPU. MobiVM also provides bindings for iOS-specific APIs, enabling developers to access native iOS features directly from Java.
 
-With MobiVM, you can create a Java project and convert it into an .xcframework, supporting various architectures, such as arm64 and x86_64. You can use this framework in your Swift and Objective-C projects.
+With MobiVM, **you can create a Java project and convert it into an .xcframework**, supporting various architectures, such as arm64 and x86_64. You can use this framework in your Swift and Objective-C projects.
 
 ## Setting up your environment
 
@@ -152,7 +152,7 @@ Adding a dependency to the Java project may sometimes lead to an EXC_BAD_ACCESS 
 </forceLinkClasses>
 ```
 
-> ⚠️  Force linking too many classes is not a good idea as it increases the size of your framework. As an optimization, you can replace the wildcard imports with more specific ones, linking only the classes that your code depends on.
+> ⚠️  Force linking too many classes is not a good idea as it increases the size of your framework. As an optimization, you can replace the wildcard patterns with more specific ones, linking only the classes that your code depends on.
 
 ### Duplicate symbol ‘_OBJC_CLASS_$_NSUserActivity'
 
