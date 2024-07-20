@@ -13,11 +13,11 @@ TocOpen: false
 
 ## The Backstory
 
-Recently, I encountered a challenge while working on an iOS project that required a specific functionality which proved to be highly complex to implement. My search led me to a Java library that had the exact features I needed. However, there was one major roadblock: it was only available in Java. At first, I tried to find a native alternative that could be easily integrated into my iOS project via SPM, CocoaPods, or other dependency managers. Unfortunately, none of the available options matched the functionality of the Java library. As I explored methods for integrating Java into iOS, I found that many existing solutions were not up-to-date, lacked sufficient documentation, and had limited support, which made them less effective for my needs. Just when I was about to give up, I stumbled upon MobiVM (formerly known as RoboVM).
+Recently, I encountered a challenge while working on an iOS project that required a specific functionality that proved to be highly complex to implement. My search led me to a Java library that had the exact features I needed. However, there was one major roadblock: it was only available in Java. At first, I tried to find a native alternative that could be easily integrated into my iOS project via SPM, CocoaPods, or other dependency managers. Unfortunately, none of the available options matched the functionality of the Java library. As I explored methods for integrating Java into iOS, I found that many existing solutions were not up-to-date, lacked sufficient documentation, and had limited support, which made them less effective for my needs. Just when I was about to give up, I stumbled upon MobiVM (formerly known as RoboVM).
 
 ## What is MobiVM?
 
-MobiVM is a fork of the last open-source release of RoboVM, a project that was discontinued after being acquired by Microsoft. It is basically an AOT (ahead-of-time) compiler for Java bytecode, targeting iOS, macOS and Linux. This implies that no interpretation is ever done and the code is run natively on the target CPU. MobiVM also provides bindings for iOS-specific APIs, enabling developers to access native iOS features directly from Java.
+MobiVM is a fork of the last open-source release of RoboVM, a project discontinued after being acquired by Microsoft. It is basically an AOT (ahead-of-time) compiler for Java bytecode, targeting iOS, macOS, and Linux. This implies that no interpretation is ever done and the code is run natively on the target CPU. MobiVM also provides bindings for iOS-specific APIs, enabling developers to access native iOS features directly from Java.
 
 With MobiVM, **you can create a Java project and convert it into an .xcframework**, supporting various architectures, such as arm64 and x86_64. You can use this framework in your Swift and Objective-C projects.
 
@@ -135,7 +135,7 @@ If you’d like to specify the architectures that the framework should be built 
 ```
 
 ## Issues
-Getting MobiVM to work with my Java code wasn't straightforward as I encountered some challenges mentioned below.
+Getting MobiVM to work with my Java code wasn't very straightforward as I encountered some challenges mentioned below.
 
 ### EXC_BAD_ACCESS
 
@@ -152,7 +152,7 @@ Adding a dependency to the Java project may sometimes lead to an EXC_BAD_ACCESS 
 </forceLinkClasses>
 ```
 
-> ⚠️  Force linking too many classes is not a good idea as it increases the size of your framework. As an optimization, you can replace the wildcard patterns with more specific ones, linking only the classes that your code depends on.
+> ⚠️  Force linking too many classes is not a good idea as it increases the size of your framework. As an optimization, you can replace the wildcard patterns with more specific ones, linking only the classes your code depends on.
 
 ### Duplicate symbol ‘_OBJC_CLASS_$_NSUserActivity'
 
