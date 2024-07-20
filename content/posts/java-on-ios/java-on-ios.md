@@ -88,7 +88,7 @@ This command will generate an xcframework file under `target/robovm`. In order t
 
 Once added to the project, the framework can be imported and used as follows. You can also find a demo iOS app [here](https://github.com/terlan98/mobivm-demo). 
 
-```swift
+```swift {hl_lines=[2,16,17]}
 import SwiftUI
 import MyFramework // <- Importing the Java framework
 
@@ -117,7 +117,7 @@ As you can see below, the function call succeeded 🎉:
 
 If you’d like to specify the architectures that the framework should be built for, modify the `robovm.xml` file:
 
-```xml
+```xml {hl_lines=[7, 8, 9]}
 <config>
     <!-- The framework targets iOS. -->
     <os>ios</os>
