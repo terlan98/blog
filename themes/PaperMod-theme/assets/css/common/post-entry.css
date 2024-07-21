@@ -4,12 +4,12 @@
     flex-direction: column;
     justify-content: center;
     min-height: 320px;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
+    margin: var(--gap) 0 calc(var(--gap) * 0.5) 0;
 }
 
 .first-entry .entry-header {
     overflow: hidden;
-    display: -webkit-box;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
 }
@@ -17,6 +17,8 @@
 .first-entry .entry-header h1 {
     font-size: 34px;
     line-height: 1.3;
+    display: flex;
+    align-items:center;
 }
 
 .first-entry .entry-content {
@@ -31,6 +33,29 @@
 
 .home-info .entry-content {
     -webkit-line-clamp: unset;
+}
+
+/* Avatar */
+.first-entry .entry-header::after {
+    content: '';
+    background: url(https://media.licdn.com/dms/image/D4E03AQFH2y_vU1yXag/profile-displayphoto-shrink_800_800/0/1710781568347?e=1727308800&v=beta&t=4bnV8MNyfO1WzzCo9GOwiQv_LEkWbYQbV_RU-N_7YO0);
+    width: 12vmin;
+    height: 12vmin;
+    display: inline-block;
+    vertical-align:text-top;
+    margin-left: auto;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* Horizontal Rule */
+.first-entry.home-info::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--tertiary);
+    margin-top: var(--gap);
 }
 
 .post-entry {

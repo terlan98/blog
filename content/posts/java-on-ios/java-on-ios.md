@@ -2,7 +2,7 @@
 title: "\u2615 Java Everywhere: How to Run it on iOS Devices"
 description: "Ever wondered if you could use Java in your iOS app?"
 date: "2024-05-10"
-FRtags: ["ios", "java", "html", "themes"]
+FRtags: ["ios", "java", "swift", "mobile"]
 aliases: ["java-on-ios"]
 ShowToc: true
 TocOpen: false
