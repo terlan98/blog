@@ -38,7 +38,7 @@
 /* Avatar */
 .first-entry .entry-header::after {
     content: '';
-    background: url(https://media.licdn.com/dms/image/D4E03AQFH2y_vU1yXag/profile-displayphoto-shrink_800_800/0/1710781568347?e=1727308800&v=beta&t=4bnV8MNyfO1WzzCo9GOwiQv_LEkWbYQbV_RU-N_7YO0);
+    background: url(/avatar.jpg);
     width: 12vmin;
     height: 12vmin;
     display: inline-block;
