@@ -300,7 +300,7 @@
 }
 
 .dark .toc {
-    background: var(--entry);
+    background: var(--toc-bg);
 }
 
 .toc details summary {
@@ -314,7 +314,7 @@
 
 .toc .details {
     display: inline;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .toc .inner {

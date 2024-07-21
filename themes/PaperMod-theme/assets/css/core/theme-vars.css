@@ -27,6 +27,7 @@
     --code-block-bg: rgb(40, 43, 52);
     --code-bg: rgb(40, 43, 52);
     --border: rgb(60, 60, 66);
+    --toc-bg: transparent;
 }
 
 .list {
