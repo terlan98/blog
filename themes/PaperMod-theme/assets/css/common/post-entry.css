@@ -38,7 +38,7 @@
 /* Avatar */
 .first-entry .entry-header::after {
     content: '';
-    background: url(/avatar.jpg);
+    background: url("/blog/avatar.jpg");
     width: 12vmin;
     height: 12vmin;
     display: inline-block;
