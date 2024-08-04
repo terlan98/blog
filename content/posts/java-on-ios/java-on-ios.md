@@ -6,6 +6,11 @@ FRtags: ["ios", "java", "swift", "mobile"]
 aliases: ["java-on-ios"]
 ShowToc: true
 TocOpen: false
+cover: 
+    image: "./posts/java-on-ios/images/mobivm-article.png#center"
+    # relative: true
+    alt: "Cover image showing a cup of coffee spilled on an iPhone"
+    caption: ""
 ---
 
 
