@@ -44,15 +44,15 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/blog/blog_icon.png"
-    favicon16x16: "/blog/blog_icon.png"
-    favicon32x32: "/blog/blog_icon.png"
-    apple_touch_icon: "/blog/blog_icon.png"
-    safari_pinned_tab: "/blog/blog_icon.png"
+    favicon: "../blog/blog_icon.png"
+    favicon16x16: "../blog/blog_icon.png"
+    favicon32x32: "../blog/blog_icon.png"
+    apple_touch_icon: "../blog/blog_icon.png"
+    safari_pinned_tab: "../blog/blog_icon.png"
 
   label:
     text: "AppDelegate"
-    icon: "/blog/blog_icon.png"
+    icon: "../blog/blog_icon.png"
     iconHeight: 28
 
   # profile-mode
