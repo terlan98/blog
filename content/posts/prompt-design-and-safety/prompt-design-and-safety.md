@@ -1,7 +1,7 @@
 ---
 title: "Prompt design & safety for on-device foundation models"
 description: "Want to add AI to your iOS app? Here's how to write effective prompts"
-date: "2024-06-26"
+date: "2025-06-26"
 FRtags: ["ios", "swift", "ai", "foundation-models"]
 aliases: ["prompt-design-and-safety"]
 ShowToc: true
